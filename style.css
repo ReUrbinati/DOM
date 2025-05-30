@@ -1,13 +1,28 @@
 body {
+    margin: 0;
+    background: linear-gradient(270deg, #6a0dad, #9b30ff, #7b68ee, #6a0dad);
+    animation: gradiente-animado 15s ease infinite;
+    color: white;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+
+
+/*body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: gray;
+    background-color: blueviolet;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
-    }
+}*/
+
+
 
 #incrementar {
     background-color: green;
